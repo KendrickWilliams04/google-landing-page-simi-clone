@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+    line-height: 2rem;
+}
+
+/*Global*/
+.container {
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*Header*/
+
+header {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+}
+
+header #left {
+    float: left;
+}
+
+header #right {
+    float: right;
+}
+
+header a {
+    padding-right: 15px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 37.5vh;
+    font-size: 16px;
+}
+
+footer #left {
+    float: left;
+}
+
+footer #right {
+    float: right;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    padding-right: 15px;
+}
+
+
+
+
+/*Showcase*/
+#showcase {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#showcase textarea {
+    border-radius: 20px;
+    width: 40%;
+    height: 50px;
+    border: #f2f2f2 1px solid;
+}
+
+#showcase textarea:hover {
+    box-shadow: aliceblue 5px;
+}
+
+#showcase .btn {
+    background-color: #f2f2f2;
+    color: #707070;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#showcase .btn:hover {
+    border: 1px solid #f2f2f2;
+    color: #000;
+}
